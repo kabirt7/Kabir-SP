@@ -21,7 +21,7 @@ Found below is a copy of a script I have created that allows you to apply this t
 3. Make a local copy of this repository
 4. Adjust variables in powershell script to specified requirements
 
-#### QUESTION 5
+## QUESTION 5
 
 ```ps
 
