@@ -21,7 +21,7 @@ Found below is a copy of a script I have created that allows you to apply this t
 3. Make a local copy of this repository
 4. Adjust variables in powershell script to specified requirements
 
-#### 5
+#### QUESTION 5
 
 ```ps
 
@@ -61,8 +61,8 @@ for ($i = 1; $i -le $siteNumber; $i++) {
 
 ## FURTHER QUESTIONS
 
-#### 6
+#### QUESTION 6
 
-#### 7
+#### QUESTION 7
 
 ## CONCLUSION
