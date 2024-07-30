@@ -30,7 +30,7 @@ for ($i = 1; $i -le $siteNumber; $i++) {
         Write-Host "Website $siteURL has been created"
 
         Write-Host "Website $siteURL is having template applied"
-        Apply-PnPProvisioningTemplate -Path $template
+        Invoke-PnPSiteTemplate -siteUrl $siteURL -Path $template
     }
     catch {
         Write-Error "An error has occurred creating website ${i}"
