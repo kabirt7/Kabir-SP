@@ -63,6 +63,12 @@ for ($i = 1; $i -le $siteNumber; $i++) {
 
 #### QUESTION 6
 
+I would create an Azure Function that would contain my adjusted Powershell script. I would then configure it such that it is triggered by an HTTP request (coming from either the application of the script)
+
 #### QUESTION 7
 
+I would first need to determine in what way the Function is integrated into this new system be it HTTP reqeusts or an API. Assuming that I go with the API approach, I would use an API gateway to integrate in this Function. I have experience with AWS, GCP and Azure. The rest of the set up is fairly straightforward between Cloud Computing Platforms involving setting up endpoints for the function, authorisation, security and testing.
+
 ## CONCLUSION
+
+This has been a really rewarding assignment. I've enjoyed getting stuck into Powershell and learning about Microsoft SharePoint. Please don't hesitate to get in contact if you had any questions :)
