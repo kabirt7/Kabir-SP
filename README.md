@@ -58,7 +58,7 @@ for ($i = 1; $i -le $siteNumber; $i++) {
 
 #### QUESTION 6
 
-I would create an Azure Function that would contain my adjusted Powershell script. I would then configure it such that it is triggered by an HTTP request (coming from either the application or the script).
+I would create an Azure Function that would contain my adjusted Powershell script. I would then configure it such that it is triggered by an HTTP request (coming from either an API or the script).
 
 #### Question 7
 
