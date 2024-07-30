@@ -59,6 +59,10 @@ for ($i = 1; $i -le $siteNumber; $i++) {
 
 * The Sharepoint module commands are not available for Mac hence you cannot use the `SPOS` commands. Easily worked around by using the `Connect-PnPOnline`
 
+## FUTURE IMPROVEMENTS
+
+* CSV file integration to allow for more precise personalisation
+
 ## FURTHER QUESTIONS
 
 #### QUESTION 6
