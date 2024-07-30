@@ -6,7 +6,8 @@ Found below is a copy of a script I have created that allows you to apply this t
 
 5)
 
-`
+`ps
+
 Import-Module PnP.PowerShell
 
 $siteNumber = 5
