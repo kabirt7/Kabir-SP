@@ -12,7 +12,7 @@ Import-Module PnP.PowerShell
 
 $siteNumber = 5
 $tenantURL = "https://example.sharepoint.com"
-$credential = Get-Credential -UserName "example@example.onmicrosoft.com" -Message "Enter the password for the SharePoint site"
+$credential = Get-Credential -UserName "example@example.onmicrosoft.com" -Message "Enter the password SharePoint site"
 $template = "./template.pnp"
 $siteUser = "example@example.onmicrosoft.com"
 
