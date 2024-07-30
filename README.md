@@ -62,6 +62,7 @@ for ($i = 1; $i -le $siteNumber; $i++) {
 ## Future Improvements
 
 * CSV file integration to allow for more precise personalisation
+* Hosted on Azure
 
 ## Further Questions
 
