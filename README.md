@@ -6,7 +6,7 @@ Found below is a copy of a script I have created that allows you to apply this t
 
 5)
 
-`ps
+```ps
 
 Import-Module PnP.PowerShell
 
@@ -36,7 +36,7 @@ for ($i = 1; $i -le $siteNumber; $i++) {
         Write-Error "An error has occurred creating website ${i}"
     }
 }
-`
+```
 
 ## PROBLEMS
 
