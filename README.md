@@ -71,4 +71,4 @@ I would first need to determine in what way the Function is integrated into this
 
 ## CONCLUSION
 
-This has been a really rewarding assignment. I've enjoyed getting stuck into Powershell and learning about Microsoft SharePoint. Please don't hesitate to get in contact if you had any questions :)
+This has been a really rewarding assignment. I've enjoyed getting stuck into Powershell and learning about Microsoft SharePoint. Please don't hesitate to get in contact if you had any questions.
