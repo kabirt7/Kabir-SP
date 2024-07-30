@@ -14,6 +14,13 @@ This repository contains a modified contosoworks Sharepoint template. It can be 
 
 Found below is a copy of a script I have created that allows you to apply this template to multiple sites.
 
+## BUILD STEPS
+
+1. Set up SharePoint Account
+2. Have Powershell downloaded and up to date
+3. Make a local copy of this repository
+4. Adjust variables in powershell script to specified requirements
+
 #### 5
 
 ```ps
