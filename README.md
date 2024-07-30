@@ -4,7 +4,7 @@ This repository contains a modified contosoworks Sharepoint template. It can be 
 
 Found below is a copy of a script I have created that allows you to apply this template to multiple sites.
 
-5)
+#### 5
 
 ```ps
 
@@ -44,8 +44,8 @@ for ($i = 1; $i -le $siteNumber; $i++) {
 
 ## FURTHER QUESTIONS
 
-6)
+#### 6
 
-7)
+#### 7
 
 ## CONCLUSION
