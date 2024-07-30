@@ -1,6 +1,6 @@
 ## Summary 
 
-This repository contains a modified contosoworks Sharepoint template. It can be applied using Powershell.
+This repository contains a modified contosoworks Sharepoint template (./contosoworks/source/template.xml). It can be applied using Powershell.
 
 Found below is a copy of a script I have created that allows you to apply this template to multiple sites.
 
