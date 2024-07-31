@@ -13,7 +13,7 @@ Found below is a copy of a script I have created that allows you to apply this t
 
 ## Question 5
 
-```ps
+```ps1
 
 Import-Module PnP.PowerShell
 
