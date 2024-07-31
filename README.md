@@ -19,9 +19,9 @@ Import-Module PnP.PowerShell
 
 $siteNumber = 5
 $tenantURL = "https://example.sharepoint.com"
-$credential = Get-Credential -UserName "example@example.onmicrosoft.com" -Message "Enter the password for SharePoint site"
-$template = "./template.pnp"
 $siteUser = "example@example.onmicrosoft.com"
+$credential = Get-Credential -UserName $siteUser -Message "Enter the password for the SharePoint site"
+$template = "./template.pnp"
 
 Connect-PnPOnline -Url $tenantURL -Credential $credential
 
@@ -37,12 +37,13 @@ for ($i = 1; $i -le $siteNumber; $i++) {
         Write-Host "Website $siteURL has been created"
 
         Write-Host "Website $siteURL is having template applied"
-        Invoke-PnPSiteTemplate -siteUrl $siteURL -Path $template
+        Apply-PnPProvisioningTemplate -Path $template
     }
     catch {
         Write-Error "An error has occurred creating website ${i}"
     }
 }
+
 ```
 
 ## Problems
