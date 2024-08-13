@@ -54,6 +54,7 @@ for ($i = 1; $i -le $siteNumber; $i++) {
 
 * CSV file integration to allow for more precise personalisation
 * Hosted on Azure
+* batching
 
 ## Further Questions
 
